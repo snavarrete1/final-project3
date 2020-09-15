@@ -1,17 +1,14 @@
 
-<header><p style="text-align:center;"><img src="https://d2v76fz8ke2yrd.cloudfront.net/media/hotels/slideshow_images_staged/large/1094976.jpg" alt="Logo"></p>
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
-
-
+<header class="slider">
+   <div class="searchBox">
+      <form action="" [formGroup] = 'travelForm' (ngSubmit) = "onSubmit()">
+         <input class="searchInput" type="search" name="q" placeholder="Search" formControlName = "destination">
+         <button class="searchButton" type="submit">
+         <i class="material-icons">
+         search
+         </i>
+         </button>
+      </form>
+      </div> 
 </header>
-<div class="searchBox">
-    <form action="/search?">
-       <input class="searchInput" type="search" name="q" placeholder="Search">
-       <button class="searchButton" type="submit">
-       <i class="material-icons">
-       search
-       </i>
-       </button>
-    </form>
-    </div> 
+

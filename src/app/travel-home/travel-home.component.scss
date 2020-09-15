@@ -21,24 +21,58 @@
 @keyframes slide{
     0% {
         background-image: url('../travel-home/images/1.jpg');
+        height:100vh;
+        background-position: cover;
     }
-    55% {
+    20% {
         background-image: url('../travel-home/images/2.jpg');
+        height:100vh;
+        background-position: cover;
     }
-    65% {
+    20.01% {
         background-image: url('../travel-home/images/3.jpg');
+        height:100vh;
+        background-position: cover;
     }
-    75% {
+    40% {
         background-image: url('../travel-home/images/4.jpg');
+        height:100vh;
+        background-position: cover;
     }
-    85% {
+    40.01% {
         background-image: url('../travel-home/images/5.jpeg');
+        height:100vh;
+        background-position: cover;
     }
-    95% {
+    60% {
         background-image: url('../travel-home/images/6.jpg');
+        height:100vh;
+        background-position: cover;
+    }
+    60.01% {
+        background-image: url('../travel-home/images/7.jpg');
+        height:100vh;
+        background-position: cover;
+    }
+    80% {
+        background-image: url('../travel-home/images/7.jpg');
+        height:100vh;
+        background-position: cover;
+    }
+    80.01% {
+        background-image: url('../travel-home/images/7.jpg');
+        height:100vh;
+        background-position: cover;
     }
     100% {
         background-image: url('../travel-home/images/7.jpg');
+        height:100vh;
+        background-position: cover;
+    }
+    0%{
+        background-image: url('../travel-home/images/7.jpg');
+        height:100vh;
+        background-position: cover;
     }
 
 }
@@ -59,12 +93,12 @@ body {
 
 }
 
-.searchBox:hover > .searchInput {
+.searchBox:hover  .searchInput {
     width: 250px;
     padding: 0 6px;
 }
 
-.searchBox:hover > .searchButton {
+.searchBox:hover  .searchButton {
   background: #fff;
   color : #2f3640;
 }
@@ -98,7 +132,7 @@ body {
 }
 
 @media screen and (max-width: 620px) {
-.searchBox:hover > .searchInput {
+.searchBox:hover  .searchInput {
     width: 150px;
     padding: 0 6px;
 }
