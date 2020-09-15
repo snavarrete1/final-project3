@@ -7,6 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TravelHomeComponent } from './travel-home/travel-home.component';
 import { TravelRegisterComponent } from './travel-register/travel-register.component';
 import { TravelContactusComponent } from './travel-contactus/travel-contactus.component'
+// Import for reactive forms module
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 
 import {SharedModule } from './shared/shared.module';
