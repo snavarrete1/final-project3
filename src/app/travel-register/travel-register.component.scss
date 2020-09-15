@@ -1,0 +1,40 @@
+section{
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "travelFirstName"
+    "travelLastName"
+    "travelAddress"
+    "travelDOB"
+    "submitButton";
+}
+
+#travelFirstName{
+    grid-area:travelFirstName;
+    border:1px solid black;
+
+}
+
+#travelLastName{
+    grid-area:travelLastName;
+    border: 1px solid black;
+}
+
+#travelAddress{
+    grid-area:travelAddress;
+    border:1px solid black;
+
+}
+
+#travelDOB{
+    grid-area:travelDOB;
+    border:1px solid black;
+
+}
+
+#travelFirstName, #travelLastName,#travelAddress, #travelDOB,label,button{
+    margin-left: 30vw;
+}

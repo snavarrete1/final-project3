@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "travel-project-e1ca4": {
+      "hosting": {
+        "final-project": [
+          "travel-project-e1ca4"
+        ]
+      }
+    }
+  }
+}

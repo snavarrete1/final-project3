@@ -1,0 +1,26 @@
+<h1>Register below</h1>
+
+<div>
+    <form [formGroup] = "travelForm">
+        <label for="travelFirstName">First Name</label>
+        <input type="text" formControlName = "travelFirstName" id="travelFirstName">
+        <div *ngIf="travelFirstName.invalid && (travelFirstName.dirty || travelFirstName.touched)" class="alert alert-danger">At least 4 characters is required</div>
+
+        <label for="travelLastName">Last Name</label>
+        <input type="text" formControlName = "travelLastName" id="travelLastName">
+        <div *ngIf="travelLastName.invalid && (travelLastName.dirty || travelLastName.touched)" class="alert alert-danger">At least 4 characters is required</div>
+
+
+        <label for="travelAddress">Address</label>
+        <input type="text" formControlName = "travelAddress" id="travelAddress">
+        <div *ngIf="travelAddress.invalid && (travelAddress.dirty || travelAddress.touched)" class="alert alert-danger">At least 4 characters is required</div>
+
+
+        <label for="travelDOB">Date of Birth</label>
+        <input type="text" formControlName = "travelDOB" id="travelDOB">
+        <div *ngIf="travelDOB.invalid && (travelDOB.dirty || travelDOB.touched)" class="alert alert-danger">At least 4 characters is required</div>
+
+        <button type="button" (click)="onSubmit()">Submit</button>
+    </form>
+</div>
+
